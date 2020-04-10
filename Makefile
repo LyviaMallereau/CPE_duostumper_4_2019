@@ -9,7 +9,7 @@ CC	=	gcc
 
 SRC =	
 
-NAME = 
+NAME = mydb
 
 OBJ = $(SRC:.c=.o)
 
