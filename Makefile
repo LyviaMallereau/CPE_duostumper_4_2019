@@ -7,13 +7,13 @@
 
 CC	=	gcc
 
-SRC =	
+SRC =	src/main.c
 
-NAME = mydb
+NAME =	mydb
 
-OBJ = $(SRC:.c=.o)
+OBJ =	$(SRC:.c=.o)
 
-all: $(NAME)
+all:	$(NAME)
 
 $(NAME):	$(OBJ)
 		gcc -o $(NAME) $(OBJ) -Wall -W -Wextra -g3
